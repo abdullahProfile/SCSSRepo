@@ -1,0 +1,24 @@
+.footer-body {
+  max-width: 1440px;
+  margin-inline: auto;
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 30px;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: $md-font-size;
+
+      &:hover {
+        color: rgb(111, 105, 105);
+      }
+    }
+  }
+}

@@ -133,8 +133,13 @@ body {
   transform: scale(1.1);
   z-index: -1;
 }
+.main-card .card .cardbody h3 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
 .main-card .card .cardbody .cardbody__content p {
   font-size: 12px;
+  color: #cac9c9;
 }
 .main-card .card .cardbody .cardbody__info {
   display: flex;
@@ -142,7 +147,8 @@ body {
   align-items: center;
 }
 .main-card .card .cardbody .cardbody__info p {
-  font-size: 12px;
+  font-size: 20px;
+  color: green;
 }
 .main-card .card .cardbody .cardbody__info a {
   text-decoration: none;
@@ -173,4 +179,27 @@ body {
 .main-card .card .cardbody .cardbody__info a:hover::after {
   width: 100%;
   left: 0;
+}
+
+.footer-body {
+  max-width: 1440px;
+  margin-inline: auto;
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 30px;
+}
+.footer-body nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-body nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.footer-body nav a:hover {
+  color: rgb(111, 105, 105);
 }

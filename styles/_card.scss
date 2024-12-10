@@ -44,9 +44,16 @@
     }
 
     .cardbody {
+
+      h3 {
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
       .cardbody__content {
+
         p {
           font-size: $sm-font-size;
+          color: #cac9c9;
         }
       }
 
@@ -54,8 +61,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         p {
-          font-size: $sm-font-size;
+          font-size: $md-font-size;
+          color: green;
         }
 
         a {
