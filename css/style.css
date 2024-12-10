@@ -203,3 +203,11 @@ body {
 .footer-body nav a:hover {
   color: rgb(111, 105, 105);
 }
+
+@media (max-width: 992px) {
+  .footer-body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
